@@ -11,3 +11,5 @@ include:
   - README.md
   - students.md
 
+navbar-links:
+  About Me: "publications"
