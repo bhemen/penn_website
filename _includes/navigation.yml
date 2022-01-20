@@ -1,0 +1,20 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: publications
+  url: /publications.html
+
+-title: students
+  url: /students.html
+
+-title: blockchain
+  url: /blockchain.html
+#  sublinks:
+#    - title: Sub-item 1
+#      url: /group/si1
+#    - title: Sub-item 2
+#      url: /group/si2
+#    - title: Sub-item 3
+#      url: /group/si3
