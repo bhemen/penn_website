@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Students
-permalink: /students
+title: Publications
+permalink: /publications
 ---
 
 # Publications
