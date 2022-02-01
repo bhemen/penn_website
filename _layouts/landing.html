@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>
+			{{ page.title }}
+		</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<div id="content">
+			{% include navigation.html %}
+			<div id="topbox">
+				<div class="summarybox">
+				{{ content }}
+				</div>
+				<div class="rightbox">
+					<img id="rightpic" src='assets/images/ocean_view.jpg' alt='Brett' title='Brett' height='400' width='300' />
+					<br />
+					{{ page.author }}<br />
+					{{ page.email }}<br />
+					{{ page.office }}<br />	
+					{{ page.phone }}<br />
+					<br />
+				</div>
+			</div>
+			{% include footer.html %}	
+		</div>
+	</body>
+</html>
