@@ -10,7 +10,7 @@ function displayAtId(id,data) {
 	try {
 		document.getElementById(id).innerHTML = data;	
 	} catch (error) {
-		console.log( error )
+		alert( error )
 	}
 
 }
@@ -21,8 +21,8 @@ async function ethBlockNum() {
 
 async function getERC20Supply(tokenAddress) {
 	var tokenContract = new web3.eth.Contract(ERC20ABI,tokenAddress)
-	var decimal = tokenContract.methods.decimals()
-	var supply = tokenContract.methods.totalSupply()
+	var decimal = await tokenContract.methods.decimals().call()
+	var supply = await tokenContract.methods.totalSupply().call()
 	var adjustedSupply= supply / Math.pow(10, decimal)
 	var tokenName = tokenContract.methods.name()
 	var tokenSymbol = tokenContract.methods.symbol()
