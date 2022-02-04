@@ -1,9 +1,12 @@
 ---
 ---
 
-const Web3 = require("web3");
+//const Web3 = require("web3");
+const ethWeb3 = new Web3("https://cloudflare-eth.com");
 const ERC20ABI = require('human-standard-token-abi');
-const web3 = new Web3("https://cloudflare-eth.com");
+//const ERC20ABI = human-standard-token-abi
+//const ERC20ABI = human_standard_token_abi
+//const ERC20ABI = require('erc20.json');
 
 function displayAtId(id,data) {
 	document.getElementById(id).innerHTML = 'loading';
@@ -15,12 +18,14 @@ function displayAtId(id,data) {
 
 }
 
+//export { ERC20ABI, displayAtId }
+
 async function ethBlockNum() {
-	web3.eth.getBlockNumber().then( data => { displayAtId('eth_block_num',data); } );
+	ethWeb3.eth.getBlockNumber().then( data => { displayAtId('eth_block_num',data); } );
 }
 
 async function getERC20Supply(tokenAddress) {
-	var tokenContract = new web3.eth.Contract(ERC20ABI,tokenAddress)
+	var tokenContract = new ethWeb3.eth.Contract(ERC20ABI,tokenAddress)
 	var decimal = await tokenContract.methods.decimals().call()
 	var supply = await tokenContract.methods.totalSupply().call()
 	var adjustedSupply= supply / Math.pow(10, decimal)
@@ -42,4 +47,4 @@ async function USDTSupply() {
 
 ethBlockNum();
 USDCSupply();
-USDTSupply();
+//USDTSupply();
