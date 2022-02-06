@@ -2,7 +2,8 @@
 ---
 
 //const Web3 = require("web3");
-const ethWeb3 = new Web3("https://cloudflare-eth.com");
+//const ethWeb3 = new Web3("https://cloudflare-eth.com");
+const ethWeb3 = new Web3("https://mainnet.infura.io/v3/ce1c19693f164090b212bc1f6932edf9")
 const ERC20ABI = require('human-standard-token-abi');
 //const ERC20ABI = human-standard-token-abi
 //const ERC20ABI = human_standard_token_abi

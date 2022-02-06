@@ -28,6 +28,7 @@ async function assetSupply(assetId) {
 
 	const total = asset_params.total 
 	const name = asset_params.name 
+	const decimals = asset_params.decimals
 
 	const creator_acct = asset_params.creator
 	const freeze_acct = asset_params.freeze
@@ -42,9 +43,9 @@ async function assetSupply(assetId) {
 
 	reserve_assets = reserve.account.assets
 	reserve_bal = reserve_assets.find( reserve_assets => reserve_assets['asset-id'] == assetId ).amount
-	console.log( reserve_bal )
+	//console.log( reserve_bal )
 
-	return total-reserve_bal
+	return (total-reserve_bal) / Math.pow(10,decimals)
 }
 
 algorand_usdc_supply = assetSupply(usdc_id)
