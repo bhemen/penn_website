@@ -22,8 +22,8 @@ function displayAtId(id,data) {
 }
 
 async function assetSupply(assetId) {
-	const resp = await indexerClient.searchForAssets().limit(1).index(usdc_id).do()
 
+	const resp = await indexerClient.searchForAssets().limit(1).index(usdc_id).do()
 	const asset_params = resp.assets[0].params
 
 	const total = asset_params.total 
@@ -49,5 +49,4 @@ async function assetSupply(assetId) {
 }
 
 algorand_usdc_supply = assetSupply(usdc_id)
-
 algorand_usdc_supply.then( data => { displayAtId('algorand_usdc_supply',data); } );

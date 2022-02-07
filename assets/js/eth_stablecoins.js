@@ -19,12 +19,6 @@ function displayAtId(id,data) {
 
 }
 
-//export { ERC20ABI, displayAtId }
-
-async function ethBlockNum() {
-	ethWeb3.eth.getBlockNumber().then( data => { displayAtId('eth_block_num',data); } );
-}
-
 async function getERC20Supply(tokenAddress) {
 	var tokenContract = new ethWeb3.eth.Contract(ERC20ABI,tokenAddress)
 	var decimal = await tokenContract.methods.decimals().call()
@@ -35,17 +29,16 @@ async function getERC20Supply(tokenAddress) {
 	return adjustedSupply
 }
 
-usdc_address = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";
-usdt_address = "0xdac17f958d2ee523a2206206994597c13d831ec7";
+const eth_usdc_address = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";
+const eth_usdt_address = "0xdac17f958d2ee523a2206206994597c13d831ec7";
 
-async function USDCSupply() {
-	getERC20Supply(usdc_address).then( data => { displayAtId('eth_usdc_supply',data); } );
-}
+window.eth_usdc_supply = getERC20Supply(eth_usdc_address)
+window.eth_usdc_supply.then( data => { displayAtId('eth_usdc_supply',data); } );
 
-async function USDTSupply() {
-	getERC20Supply(usdt_address).then( data => { displayAtId('eth_usdt_supply',data); } );
-}
+/*
+var eth_usdt_supply = getERC20Supply(eth_usdt_address)
+eth_usdt_supply.then( data => { displayAtId('eth_usdt_supply',data); } );
+*/
 
-ethBlockNum();
-USDCSupply();
-//USDTSupply();
+var eth_block_num = ethWeb3.eth.getBlockNumber()
+eth_block_num.then( data => { displayAtId('eth_block_num',data); } );

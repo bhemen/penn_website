@@ -29,8 +29,8 @@ async function getStellarTokenSupply(code,issuer) {
 
 }
 
-supply = getStellarTokenSupply(code,issuer);
-supply.then( data => { displayAtId('stellar_usdc_supply',data); } );
+stellar_usdc_supply = getStellarTokenSupply(code,issuer);
+stellar_usdc_supply.then( data => { displayAtId('stellar_usdc_supply',data); } );
 /*
 usdc = new StellarSdk.Asset(code,issuer);
 console.log(usdc)

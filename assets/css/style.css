@@ -74,6 +74,11 @@ div.rightbox {
 	margin: right;
 }
 
+div.leftbox {
+	float: left;
+	margin: left;
+}
+
 img#rightpic {
 	float: right;
 	margin-right: 5px;

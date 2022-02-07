@@ -3,22 +3,60 @@ title: Stablecoins
 layout: page
 ---
 
-| Eth Block Number | <span id="eth_block_num"></span> <br /> |
-| --- | --- |
-| Eth USDC Supply | <span id="eth_usdc_supply"></span> |
-| --- | --- |
-| Sol USDC Supply | <span id="sol_usdc_supply"></span> |
-| --- | --- |
-| Stellar USDC Supply | <span id="stellar_usdc_supply"></span> |
-| --- | --- |
-| Tron USDC Supply | <span id="tron_usdc_supply"></span> |
-| --- | --- |
-| Avalanche USDC Supply | <span id="avalanche_usdc_supply"></span> |
-| --- | --- |
-| Algorand USDC Supply | <span id="algorand_usdc_supply"></span> |
-| --- | --- |
-| EOS USDT Supply | <span id="eos_usdt_supply"></span> |
-| --- | --- |
+<div id="stablecoin_table" class='leftbox'>
+
+<table>
+<tr>
+	<td>
+		Ethereum Block Height
+	</td>
+	<td>
+		<span id="eth_block_num"></span> 
+	</td>
+</tr>
+<tr>
+	<td>
+		Ethereum USDC Supply
+	</td>
+	<td>
+		<span id="eth_usdc_supply"></span> 
+	</td>
+</tr>
+<tr>
+	<td>
+		Algorand USDC Supply
+	</td>
+	<td>
+		<span id="algorand_usdc_supply"></span> 
+	</td>
+</tr>
+<tr>
+	<td>
+		Avalanche USDC Supply
+	</td>
+	<td>
+		<span id="avalanche_usdc_supply"></span> 
+	</td>
+</tr>
+<tr>
+	<td>
+		Solana USDC Supply
+	</td>
+	<td>
+		<span id="sol_usdc_supply"></span> 
+	</td>
+</tr>
+<tr>
+	<td>
+		Tron USDC Supply
+	</td>
+	<td>
+		<span id="tron_usdc_supply"></span> 
+	</td>
+</tr>
+</table>
+
+<div id = "supplychart" class="rightbox" style = "width: 550px; height: 400px; margin: 0 auto"></div>
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/human-standard-token-abi@2.0.0/index.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.0.1/stellar-sdk.min.js"></script>
@@ -27,6 +65,8 @@ layout: page
 <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0/web3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tronweb@3.2.6/dist/TronWeb.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/eosjs-api@7.0.4/lib/eos-api.min.js" crossorigin="anonymous"></script>
+<!-- <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script> -->
+<script src = "https://code.highcharts.com/highcharts.js"></script>
 <script src="{{ site.baseurl }}/assets/js/eth_stablecoins.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/sol_stablecoins.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/stellar_stablecoins.js" type="text/javascript"></script>
@@ -34,3 +74,5 @@ layout: page
 <script src="{{ site.baseurl }}/assets/js/avalanche_stablecoins.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/algorand_stablecoins.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/eos_stablecoins.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/usdc_chart.js" type="text/javascript"></script>
+
