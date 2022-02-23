@@ -1,6 +1,9 @@
 ---
 title: Brett Hemenway Falk
 layout: landing
+image: brett_2022
+imageheight: 400
+imagewidth: 400
 author: Brett Hemenway Falk
 email: fbrett &lt; at &gt; cis.upenn.edu
 office: 162 Levine
@@ -17,4 +20,3 @@ Blockchain technology represents another approach for using cryptography to allo
 
 My research has been funded by the NSF, DARPA, IARPA, the Office of Naval Research, the Army Research Lab, the National Institute of Health, and the Laura and John Arnold Foundation.
 
-[Stablecoins](stablecoins.html)

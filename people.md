@@ -7,13 +7,16 @@ layout: page
 
 * Alon Benhaim
 	* Quadratic Voting in Blockchain Governance
-	* Committee Election 
+	* [Committee-based consensus mechanisms](https://arxiv.org/abs/2110.08673)
 * David Cao
 	* Optimal fees in Automated Market Makers
 * Daniel Noble
-	* Distributed Oblivious RAM (DORAM)
+	* [Distributed Oblivious RAM (DORAM)](https://eprint.iacr.org/2021/1463)
+	* Efficient Proactive Secret Sharing
 * Niuniu Zhang
-	* Delegation in on-chain governance
+	* Artist compensations in NFTs
+* Ben Leimberger
+	* [Cyclic arbitrage opportunities in on-chain DEXs](https://github.com/benleim/pathfinder)
 
 ## Graduates
 

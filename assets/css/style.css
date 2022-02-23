@@ -6,7 +6,7 @@ div.mainbody {
 	width:90%; 
 	background-color: white; 
 	color: black; 
-	border: thin solid black; 
+	/*border: thin solid black; */
 	text-align: center; 
 	padding: 2em; 
 	margin: 5px; 
@@ -19,16 +19,17 @@ div#students {
 div#latexcontent {
 	background-color: #eeeeee;
 	color: black;
-	margin: 20px;
-	padding: 20px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
 	border: thin solid black;
 }
 
 div#content {
-	border: 1px solid black;
+	/*border: 1px solid black */
 	min-width: 400px;
-	padding: 30px;
-	margin: 30px;
+	padding: 0px;
+	margin: 0px;
 	text-align: center;
 
 }
@@ -37,12 +38,14 @@ div#navbar {
 	width = 100%;
 	padding: 10px;
 	text-align: center;
+	background-color: #333399;
 }
 
 #navbar a{
 	font-weight: bold;
 	font-size: large;
 	text-decoration: none;
+	color: #bbbbbb;
 }
 
 #navbar ul{
@@ -79,11 +82,19 @@ div.leftbox {
 	margin: left;
 }
 
+#stablecoin_table table {
+	border-collapse: collapse;
+}
+
+#stablecoin_table tr td th {
+	border: 1px solid black;
+}
+
 img#rightpic {
 	float: right;
 	margin-right: 5px;
 	padding: 5px;
-	border: 1px solid #88e;
+	/*border: 1px solid #88e;*/
 }
 
 div#leftbox {

@@ -51,7 +51,7 @@ async function createUSDCChart() {
 		chart_data.push( { 'name': platforms[i], 'y': supplies[i] } );
 	}
 
-	alert( JSON.stringify(chart_data) ) 	
+	//alert( JSON.stringify(chart_data) ) 	
 
 	createSupplyChart( chart_data )
 

@@ -68,5 +68,5 @@ layout: page
 
 ## Fun
 
-* [The Diversity Discrepancy]() Mathematics Magazine
+* [The Diversity Discrepancy](https://www.tandfonline.com/doi/full/10.1080/0025570X.2022.2000263) Mathematics Magazine
 * [Why People Die Before They Expect To](https://www.tandfonline.com/doi/abs/10.1080/0025570X.2018.1421388) Mathematics Magazine

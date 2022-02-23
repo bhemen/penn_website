@@ -25,7 +25,7 @@ async function getStellarTokenSupply(code,issuer) {
 	asset = assets.records[0]	
 	
 	//console.log(asset)
-	return asset.amount
+	return Number(asset.amount)
 
 }
 
