@@ -6,6 +6,9 @@ layout: page
 # MCIT 582 - Blockchains
 
 I co-teach the blockchain course in Penn's [MCIT Online program](https://online.seas.upenn.edu/degrees/mcit-online/) with [Mohammad Amiri](https://sites.cs.ucsb.edu/~amiri/).
+The course provides an in-depth introduction to the cryptography and consensus mechanisms that form the foundation of essentially all existing blockchain platforms.
+In the weekly homework assignments, we'll use python to interact with the Bitcoin, Ethereum and Algorand blockchains.
+The course assumes no prior knowledge of cryptography or distributed systems, but a basic familiarity with Python will is helpful.
 
 ## Syllabus
 

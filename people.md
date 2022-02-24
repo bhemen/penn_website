@@ -20,8 +20,11 @@ layout: page
 
 ## Graduates
 
-* Ian Masters (Masters Thesis)
-	* [Mathematical Foundations for Distributed Differential Privacy](assets/theses/ian_masters.pdf)
+* Caroline Cai
+	* [The Future of Blockchain and Its Implications](assets/theses/caroline_cai.pdf)
+
+* Jennifer Yen
+	* [The Oracle Problem: Unlocking the Potential of Blockchain](assets/theses/jennifer_yen.pdf)
 
 * William Chen (Independent Study)
 	* Sorting routines for encrypted data using the [HELib Fully-Homomorphic Encryption Library](https://github.com/shaih/HElib)

@@ -8,7 +8,11 @@ Here are some resources that can help you get started in the space.
 
 # Reading
 
-* [Ethereum Docs](https://ethereum.org/en/developers/docs/)
+If you haven't already, you should read the [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf).
+
+If you're interested in analyzing on-chain data the [Ethereum Docs](https://ethereum.org/en/developers/docs/) are a good place to start to get a feeling for how data is actually stored on the (Ethereum) blockchain.
+The [ERC-20 token standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) for fungible tokens, and the [ERC-721 token standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) 
+for non-fungible tokens have become key parts of the blockchain ecosystem, and so it's important to get a good handle on how they function.
 
 # Podcasts
 
@@ -22,7 +26,7 @@ Here are some resources that can help you get started in the space.
   * The Solana podcast focuses on projects that interact with the [Solana blockchain](https://solana.com/), but also covers topics that are relevant to all aspects of the blockchain ecosystem.
 * [Uncommon Core](https://uncommoncore.co/)
   * [Hasu](https://twitter.com/hasufl), the host of this podcast is a trader / investor, so many of the episodes focus on the investing rather than diving into the technical details of different projects and platforms.  There are several good episodes, however, like Hasu's [interview with an MEV Searcher](https://anchor.fm/uncommoncore/episodes/Interview-with-a-Searcher---with-MEV-Senpai-and-Hasu-e14n9nq), and Hasu's [interview with Eli-Ben Sasson](https://anchor.fm/uncommoncore/episodes/Hasu-gets-STARK-pilled---with-Eli-Ben-Sasson-StarkWare-e1bq6nt)
-* Lane Rettig's interviews on [What Bitcoin Did](https://www.whatbitcoindid.com) provide the clearest explanation of what makes Bitcoin special (in contrast to the many newer, faster layer 1s) 
+* Lane Rettig's interviews on [What Bitcoin Did](https://www.whatbitcoindid.com) provide a very clear explanation of what makes Bitcoin special (in contrast to the many newer, faster layer 1s) 
 	* [The Failure of Ethereum Governance](https://www.whatbitcoindid.com/podcast/the-failure-of-ethereum-governance)
 	* [Why Proof of Stake is Flawed](https://www.whatbitcoindid.com/podcast/why-proof-of-stake-is-flawed)
 
