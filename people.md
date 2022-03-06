@@ -3,6 +3,10 @@ title: People
 layout: page
 ---
 
+## Brett Hemenway Falk
+
+Brett is a research assistant professor and directory of the Crypto and Society Lab.
+
 ## Current Students
 
 * Alon Benhaim

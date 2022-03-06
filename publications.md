@@ -24,7 +24,7 @@ layout: page
 * [Honeycrisp: Large-scale Differentially Private Aggregation Without a Trusted Core](https://dl.acm.org/doi/abs/10.1145/3341301.3359660) SOSP 2019
 * [DURASIFT A robust, decentralized, encrypted database supporting private searches with complex policy-controls](https://dl.acm.org/doi/10.1145/3338498.3358651) WPES 2019
 * [Private Set Intersection with Linear Communication from General Assumptions](https://eprint.iacr.org/2018/238) WPES 2019
-* [SoK: General Purpose Compilers for Secure Multi-Party Computation] (https://www.computer.org/csdl/proceedings/sp/2019/6660/00/666000a462-abs.html)Oakland 2019
+* [SoK: General Purpose Compilers for Secure Multi-Party Computation](https://www.computer.org/csdl/proceedings/sp/2019/6660/00/666000a462-abs.html)Oakland 2019
 * [ETERNAL: Encrypted Transmission With an Error-correcting, Real-time, Noise-resilient Apparatus on Lightweight Devices](https://dl.acm.org/citation.cfm?id=3267360) MPS 2018
 * [Cryptographic applications of capacity theory: On the optimality of Coppersmith's method for univariate polynomials](http://arxiv.org/abs/1605.08065) ASIACRYPT 2016
 * [Adaptive Security with Quasi-Optimal Rate](https://link.springer.com/chapter/10.1007/978-3-662-49096-9_22) TCC 2016

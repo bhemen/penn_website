@@ -93,8 +93,10 @@ div.leftbox {
 img#rightpic {
 	float: right;
 	margin-right: 5px;
-	padding: 5px;
-	/*border: 1px solid #88e;*/
+	margin-bottom: 5px;
+	padding: 3px;
+	border: 1px solid #88e;
+	border-radius: 50%;
 }
 
 div#leftbox {
