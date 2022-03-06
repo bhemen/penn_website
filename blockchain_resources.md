@@ -2,7 +2,6 @@
 title: Blockchain Resources
 layout: page
 ---
-
 # Reading
 
 If you haven't already, you should read the [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf).
@@ -21,6 +20,8 @@ Lane Rettig's interviews on [What Bitcoin Did](https://www.whatbitcoindid.com) p
 	* [Why Proof of Stake is Flawed](https://www.whatbitcoindid.com/podcast/why-proof-of-stake-is-flawed)
 
 # Online Blockchain Courses
+
+# YouTube
 
 * [Blockchain at Berkeley](https://www.youtube.com/c/BlockchainatBerkeley/videos) is a student club that puts out excellent content
   * Blockchain at Berkeley (Fundamentals)
