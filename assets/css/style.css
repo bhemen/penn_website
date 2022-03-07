@@ -16,6 +16,12 @@ div#students {
 	text-align: left;
 }
 
+div#contact {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
 div#latexcontent {
 	background-color: #eeeeee;
 	color: black;
@@ -97,6 +103,13 @@ img#rightpic {
 	padding: 3px;
 	border: 1px solid #88e;
 	border-radius: 50%;
+}
+
+img#landingpic {
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 3px;
 }
 
 div#leftbox {
