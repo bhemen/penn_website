@@ -1,11 +1,20 @@
 ---
 title: People
-layout: page
+layout: rightpic
+image: brett_2022.jpg
+imageheight: 200
+imagewidth: 200
+imagealt: brett
+imagetitle: brett
 ---
 
 ## Brett Hemenway Falk
 
-Brett is a research assistant professor and directory of the Crypto and Society Lab.
+Dr. Falk is a research professor in the department computer and information sciences at the University of Pennsylvania.  
+He is the director of the Crypto and Society Lab, which focuses on 1) privacy and security in digital environments, 2) facilitating transparency and trust.  
+He has published extensively in the field of cryptography, coding theory and network analysis.  Dr. Falk also teaches a highly popular [course on Blockchain technology](mcit582.html) 
+for Penn's Master's in Computing and Information Technology program.  
+He received his Sc.B. in mathematics from Brown University, and his Ph.D. in mathematics from UCLA.
 
 ## Current Students
 

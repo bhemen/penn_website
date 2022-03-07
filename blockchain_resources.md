@@ -16,12 +16,10 @@ The [Zero Knowledge podcast](https://www.zeroknowledge.fm) is by far the best po
 [Epicenter](https://epicenter.tv/) is also quite good.
 
 Lane Rettig's interviews on [What Bitcoin Did](https://www.whatbitcoindid.com) provide a very clear explanation of what makes Bitcoin special (in contrast to the many newer, faster layer 1s) 
-	* [The Failure of Ethereum Governance](https://www.whatbitcoindid.com/podcast/the-failure-of-ethereum-governance)
-	* [Why Proof of Stake is Flawed](https://www.whatbitcoindid.com/podcast/why-proof-of-stake-is-flawed)
+* [The Failure of Ethereum Governance](https://www.whatbitcoindid.com/podcast/the-failure-of-ethereum-governance)
+* [Why Proof of Stake is Flawed](https://www.whatbitcoindid.com/podcast/why-proof-of-stake-is-flawed)
 
 # Online Blockchain Courses
-
-# YouTube
 
 * [Blockchain at Berkeley](https://www.youtube.com/c/BlockchainatBerkeley/videos) is a student club that puts out excellent content
   * Blockchain at Berkeley (Fundamentals)
