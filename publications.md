@@ -18,6 +18,7 @@ permalink: /publications
 
 ## Cryptography
 
+* [A Linear-Time 2-Party Secure Merge Protocol](https://eprint.iacr.org/2022/380)
 * [Two variable polynomial congruences and capacity theory](https://arxiv.org/abs/2111.14180)
 * [3-Party Distributed ORAM from Oblivious Set Membership](https://eprint.iacr.org/2021/1463)
 * [Secure Merge with O(n log log n) Secure Operations](https://drops.dagstuhl.de/opus/volltexte/2021/14326/) ITC 2021

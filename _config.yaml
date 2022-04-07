@@ -1,4 +1,8 @@
 # _config.yaml
+
+url: https://www.cis.upenn.edu
+baseurl: ~fbrett
+
 browserify:
 
   # target exts to convert
