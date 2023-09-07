@@ -11,16 +11,21 @@ permalink: /publications
 
 ## Economics and Modeling
 
+* [Balancing Power in Decentralized Governance: Quadratic Voting under Imperfect Information](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4416748)
+* [Economics of NFTs: The value of creator royalties](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4284776)
 * [Scaling Blockchains: Can Elected Committees help?](https://arxiv.org/abs/2110.08673)
-* [Privacy-preserving network analytics](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680000)
+* [Privacy-preserving network analytics](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680000) Management Science 2022
 * [Token-weighted Crowdsourcing](http://ssrn.com/abstract=3295811) Management Science 2020
 * [Sensitivity and Computational Complexity in Financial Networks](https://arxiv.org/abs/1503.07676) Algorithmic Finance 2016
 
 ## Cryptography
 
-* [A Linear-Time 2-Party Secure Merge Protocol](https://eprint.iacr.org/2022/380)
-* [Two variable polynomial congruences and capacity theory](https://arxiv.org/abs/2111.14180)
-* [3-Party Distributed ORAM from Oblivious Set Membership](https://eprint.iacr.org/2021/1463)
+* [Proactive Secret Sharing with Constant Communication](https://eprint.iacr.org/2023/942) TCC 2023
+* [DORAM revisited: Maliciously secure RAM-MPC with logarithmic overhead](https://eprint.iacr.org/2023/578) TCC 2023
+* [GigaDORAM: Breaking the Billion Address Barrier](https://www.usenix.org/conference/usenixsecurity23/presentation/falk) USENIX 2023
+* [Two variable polynomial congruences and capacity theory](https://arxiv.org/abs/2111.14180) Mathematical Cryptology 2023
+* [A Linear-Time 2-Party Secure Merge Protocol](https://eprint.iacr.org/2022/380) CSCML 2022
+* [3-Party Distributed ORAM from Oblivious Set Membership](https://eprint.iacr.org/2021/1463) SCN 2022
 * [Secure Merge with O(n log log n) Secure Operations](https://drops.dagstuhl.de/opus/volltexte/2021/14326/) ITC 2021
 * [Alibi: A Flaw in Cuckoo-Hashing based Hierarchical ORAM Schemes and a Solution](https://eprint.iacr.org/2020/997) EUROCRYPT 2020
 * [Honeycrisp: Large-scale Differentially Private Aggregation Without a Trusted Core](https://dl.acm.org/doi/abs/10.1145/3341301.3359660) SOSP 2019
@@ -50,6 +55,7 @@ permalink: /publications
  
 ## Cryptography Policy
 
+* [A Comprehensive Approach to Crypto Regulation](https://scholarship.law.upenn.edu/jbl/vol25/iss2/3/) University of Pennsylvania Journal of Business Law 2023
 * [Computing Statistics from Private Data](http://doi.org/10.5334/dsj-2018-031) Data Science Journal 2018
 * [A new era for data sharing?](http://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2016.00910.x/abstract) Significance 2016
 * [High-precision Secure Computation of Satellite Collision Probabilities](https://eprint.iacr.org/2016/319) SCN 2016 
