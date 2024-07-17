@@ -11,15 +11,19 @@ permalink: /publications
 
 ## Economics and Modeling
 
+* [Blockchain Governance: An Empirical Analysis of User Engagement on DAOs](https://arxiv.org/abs/2407.10945) ([code](https://github.com/bhemen/dao-governance))
+* [NFT Wash Trading: Direct vs. Indirect Estimation](https://arxiv.org/abs/2311.18717)
 * [Balancing Power in Decentralized Governance: Quadratic Voting under Imperfect Information](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4416748)
 * [Economics of NFTs: The value of creator royalties](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4284776)
-* [Scaling Blockchains: Can Elected Committees help?](https://arxiv.org/abs/2110.08673)
-* [Privacy-preserving network analytics](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680000) Management Science 2022
+* [Scaling Blockchains: Can Elected Committees help?](https://arxiv.org/abs/2110.08673) Management Science 2023
+* [Privacy-preserving network analytics](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680000) Management Science 2022 ([code](https://github.com/marsella/privacy-preserving-network-analysis))
 * [Token-weighted Crowdsourcing](http://ssrn.com/abstract=3295811) Management Science 2020
 * [Sensitivity and Computational Complexity in Financial Networks](https://arxiv.org/abs/1503.07676) Algorithmic Finance 2016
 
 ## Cryptography
 
+* [Malicious security for PIR almost for free](https://eprint.iacr.org/2024/964)
+* [MetaDORAM: Info-Theoretic Distributed ORAM with Less Communication](https://eprint.iacr.org/2024/011)
 * [Proactive Secret Sharing with Constant Communication](https://eprint.iacr.org/2023/942) TCC 2023
 * [DORAM revisited: Maliciously secure RAM-MPC with logarithmic overhead](https://eprint.iacr.org/2023/578) TCC 2023
 * [GigaDORAM: Breaking the Billion Address Barrier](https://www.usenix.org/conference/usenixsecurity23/presentation/falk) USENIX 2023
@@ -78,3 +82,12 @@ permalink: /publications
 
 * [The Diversity Discrepancy](https://www.tandfonline.com/doi/full/10.1080/0025570X.2022.2000263) Mathematics Magazine
 * [Why People Die Before They Expect To](https://www.tandfonline.com/doi/abs/10.1080/0025570X.2018.1421388) Mathematics Magazine
+
+## Code for blockchain analysis
+
+* [Uniswap trading pool data](https://github.com/bhemen/uniswap-data)
+* [Aave lending pool data](https://github.com/bhemen/aave-data)
+* [Tools for pulling smart-contract events from Ethereum](https://github.com/bhemen/ethereum-scraping)
+* [Tools for analyzing USDC on Ethereum](https://github.com/bhemen/usdc)
+* [Tools for analyzing USDT on Ethereum](https://github.com/bhemen/usdt)
+* [Tools for identifying blockchain addresses on OFAC’s SDN list](https://github.com/bhemen/OFAC-SDN-analysis/)
