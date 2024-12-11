@@ -80,6 +80,7 @@ permalink: /publications
 
 ## Fun
 
+* [Why Will a Small Increase in Global Temperature Lead to a Large Increase in the Number of Heat Waves? Truncation and Extreme Events](https://www.tandfonline.com/doi/full/10.1080/09332480.2024.2434440) Chance Magazine
 * [The Diversity Discrepancy](https://www.tandfonline.com/doi/full/10.1080/0025570X.2022.2000263) Mathematics Magazine
 * [Why People Die Before They Expect To](https://www.tandfonline.com/doi/abs/10.1080/0025570X.2018.1421388) Mathematics Magazine
 
